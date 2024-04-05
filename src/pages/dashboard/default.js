@@ -16,7 +16,7 @@ import TotalIncome from 'sections/widget/chart/TotalIncome';
 
 // assets
 import { ArrowDown, ArrowUp, Book, Calendar, CloudChange, Wallet3 } from 'iconsax-react';
-import WelcomeBanner from 'sections/dashboard/default/WelcomeBanner';
+// import WelcomeBanner from 'sections/dashboard/default/WelcomeBanner';
 
 // ==============================|| DASHBOARD - DEFAULT ||============================== //
 
@@ -25,9 +25,9 @@ const DashboardDefault = () => {
 
   return (
     <Grid container rowSpacing={4.5} columnSpacing={2.75}>
-      <Grid item xs={12}>
+      {/* <Grid item xs={12}>
         <WelcomeBanner />
-      </Grid>
+      </Grid> */}
 
       {/* row 1 */}
       <Grid item xs={12} sm={6} lg={3}>
