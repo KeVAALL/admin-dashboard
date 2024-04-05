@@ -1,0 +1,20 @@
+index/route.js
+
+// import { lazy } from 'react';
+// import CommonLayout from 'layout/CommonLayout';
+// import Loadable from 'components/Loadable';
+// const PagesLanding = Loadable(lazy(() => import('pages/landing')));
+
+
+// render - landing page
+
+// {
+//   path: '/',
+//   element: <CommonLayout />,
+//   children: [
+//     {
+//       path: '/',
+//       element: <PagesLanding />
+//     }
+//   ]
+// },
